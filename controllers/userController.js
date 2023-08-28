@@ -74,6 +74,48 @@ const userController = {
     }
   },
 
+  // Add a new friend to a user's friend list
+async addFriend({ params }, res) {
+    try {
+        const dbUserData = await User.findOneAndUpdate(
+            { _id: params.userId },
+            { $addToSet: { friends: params.friendId } },
+            { new: true }
+        );
+
+        if (!dbUserData) {
+            res.status(404).json({ message: "No user found with this id!" });
+            return;
+        }
+
+        res.json(dbUserData);
+    } catch (err) {
+        console.error(err);
+        res.status(400).json(err);
+    }
+},
+
+// Remove a friend from a user's friend list
+async removeFriend({ params }, res) {
+    try {
+        const dbUserData = await User.findOneAndUpdate(
+            { _id: params.userId },
+            { $pull: { friends: params.friendId } },
+            { new: true }
+        );
+
+        if (!dbUserData) {
+            res.status(404).json({ message: "No user found with this id!" });
+            return;
+        }
+
+        res.json(dbUserData);
+    } catch (err) {
+        console.error(err);
+        res.status(400).json(err);
+    }
+},
+
   // DELETE to remove user by its _id and associated thoughts
   async deleteUser({ params }, res) {
     try {

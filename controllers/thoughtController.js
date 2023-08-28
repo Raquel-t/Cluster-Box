@@ -28,6 +28,7 @@ const thoughtController = {
   // Fetch a specific thought by ID
   async getThoughtById({ params }, res) {
     try {
+        console.log("Thought ID from Params:", params.id);
       const thought = await Thought.findById(params.id);
       if (!thought) {
         return res.status(404).json({ message: 'No thought found with this ID!' });
@@ -72,7 +73,8 @@ const thoughtController = {
   // Add a reaction to a thought
   async addReaction({ params, body }, res) {
     try {
-      const updatedThought = await Thought.findByIdAndUpdate(params.id, { $push: { reactions: body } }, { new: true });
+        console.log("reaction:", params.thoughtId);
+      const updatedThought = await Thought.findByIdAndUpdate(params.thoughtId, { $push: { reactions: body } }, { new: true });
       if (!updatedThought) {
         return res.status(404).json({ message: 'No thought found with this ID!' });
       }

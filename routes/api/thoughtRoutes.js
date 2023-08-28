@@ -16,7 +16,7 @@ router.route('/').get(getAllThoughts);
 router.route('/:id').get(getThoughtById).put(updateThought).delete(deleteThought);
 
 // Route to create a new thought associated by user)
-router.route('/:userId').post(createThought);
+router.route('/user/:userId').post(createThought);
 
 // Routes to add reactions on a thought
 router.route('/:thoughtId/reactions').post(addReaction);
