@@ -27,7 +27,7 @@ const ReactionSchema = new Schema(
       getters: true
     }
   }
-); console.log(formattedDate);
+);
 
 const ThoughtSchema = new Schema(
   {

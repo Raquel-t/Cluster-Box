@@ -1,3 +1,4 @@
 node_modules
 CRLF
 LF
+package-lock.json
