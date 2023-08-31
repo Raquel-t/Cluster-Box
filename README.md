@@ -30,7 +30,7 @@ THEN I am able to successfully create and delete reactions to thoughts and add a
 
 * [Installation](#installation)
 * [Usage](#usage)
-* [Mock-Up](#mock-up)
+* [Screenshotsp](#screenshots)
 * [Credits](#credits)
 * [Questions](#questions)
 * [Resources](#resources)
@@ -39,7 +39,7 @@ THEN I am able to successfully create and delete reactions to thoughts and add a
 ```
 Open terminal and run npm run start
 ```
-## Mock-Up
+## screenshots
 The following images show the application's API routes being tested in Insomnia:
 
 The following shows GET routes to return all users and all thoughts:
