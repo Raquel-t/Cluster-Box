@@ -42,7 +42,6 @@ Open terminal and run npm run start
 ## Mock-Up
 The following animations show examples of the application's API routes being tested in Insomnia:
 
-https://drive.google.com/file/d/1eJ05CfCNNGFlhL6RyUg9tEqGp_5WBh10/view 
 
 
 ## Badges
