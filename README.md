@@ -37,20 +37,11 @@ THEN I am able to successfully create and delete reactions to thoughts and add a
 
 ## Usage
 ```
-Open terminal and run npm run dev
+Open terminal and run npm run start
 ```
 ## Mock-Up
 The following animations show examples of the application's API routes being tested in Insomnia:
 
-The following shows GET routes to return all users and all thoughts:
-
-The following shows GET routes to return a single user and a single thought:
-
-The following shows the POST, PUT, and DELETE routes for users:
-
-The following shows the POST and DELETE routes for a user’s friend list being tested in Insomnia:
-
-The following shows the POST and DELETE routes for reactions to thoughts being tested in Insomnia:
 
 
 ## Badges
