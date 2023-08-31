@@ -46,30 +46,30 @@ The following shows GET routes to return all users and all thoughts:
 
 ![Get All Users](../Cluster-Box-Net/public/images/Get%20All%20users.jpg) 
 
-![Get All Thoughts](image-1.png)
+![Get All Thoughts](./public/images/image-1.png)
 
 
 The following shows GET routes to return a single user and a single thought:
 
-![Get Single User](image-2.png)
+![Get Single User](./public/images/image-2.png)
 
-![Get Single Thought](image-3.png)
+![Get Single Thought](./public/images/image-3.png)
 
 The following shows the POST, PUT, and DELETE routes for users:
 
-![post User](image-4.png)
-![put user](image-5.png)
-![Delete User](image-6.png)
+![post User](./public/images/image-4.png)
+![put user](./public/images/image-5.png)
+![Delete User](./public/images/image-6.png)
 
 The following shows the POST and DELETE routes for a user’s friend list being tested in Insomnia:
 
-![add Friend](image-7.png)
-![delete friend](image-8.png)
+![add Friend](./public/images/image-7.png)
+![delete friend](./public/images/image-8.png)
 
 The following shows the POST and DELETE routes for reactions to thoughts being tested in Insomnia:
 
-![post reaction](image-9.png)
-![delete reaction](image-10.png)
+![post reaction](./public/images/image-9.png)
+![delete reaction](./public/images/image-9.png)
 
 
 ## Badges
