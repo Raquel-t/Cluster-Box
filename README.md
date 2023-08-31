@@ -30,7 +30,7 @@ THEN I am able to successfully create and delete reactions to thoughts and add a
 
 * [Installation](#installation)
 * [Usage](#usage)
-* [Screenshotsp](#screenshots)
+* [Screenshots](#screenshots)
 * [Credits](#credits)
 * [Questions](#questions)
 * [Resources](#resources)
