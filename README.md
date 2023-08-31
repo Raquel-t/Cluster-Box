@@ -44,7 +44,7 @@ The following images show the application's API routes being tested in Insomnia:
 
 The following shows GET routes to return all users and all thoughts:
 
-![Get All Users](../Cluster-Box-Net/public/images/Get%20All%20users.jpg) 
+![Get All Users](./public/images/Get%20All%20users.jpg) 
 
 ![Get All Thoughts](./public/images/image-1.png)
 
@@ -69,7 +69,7 @@ The following shows the POST and DELETE routes for a user’s friend list being 
 The following shows the POST and DELETE routes for reactions to thoughts being tested in Insomnia:
 
 ![post reaction](./public/images/image-9.png)
-![delete reaction](./public/images/image-9.png)
+![delete reaction](./public/images/image-10.png)
 
 
 ## Badges
