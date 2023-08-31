@@ -40,8 +40,36 @@ THEN I am able to successfully create and delete reactions to thoughts and add a
 Open terminal and run npm run start
 ```
 ## Mock-Up
-The following animations show examples of the application's API routes being tested in Insomnia:
+The following images show the application's API routes being tested in Insomnia:
 
+The following shows GET routes to return all users and all thoughts:
+
+![Get All Users](../Cluster-Box-Net/public/images/Get%20All%20users.jpg) 
+
+![Get All Thoughts](image-1.png)
+
+
+The following shows GET routes to return a single user and a single thought:
+
+![Get Single User](image-2.png)
+
+![Get Single Thought](image-3.png)
+
+The following shows the POST, PUT, and DELETE routes for users:
+
+![post User](image-4.png)
+![put user](image-5.png)
+![Delete User](image-6.png)
+
+The following shows the POST and DELETE routes for a user’s friend list being tested in Insomnia:
+
+![add Friend](image-7.png)
+![delete friend](image-8.png)
+
+The following shows the POST and DELETE routes for reactions to thoughts being tested in Insomnia:
+
+![post reaction](image-9.png)
+![delete reaction](image-10.png)
 
 
 ## Badges
