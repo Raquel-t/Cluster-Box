@@ -39,7 +39,7 @@ THEN I am able to successfully create and delete reactions to thoughts and add a
 ```
 Open terminal and run npm run start
 ```
-## screenshots
+## Screenshots
 The following images show the application's API routes being tested in Insomnia:
 
 The following shows GET routes to return all users and all thoughts:
@@ -71,6 +71,9 @@ The following shows the POST and DELETE routes for reactions to thoughts being t
 ![post reaction](./public/images/image-9.png)
 ![delete reaction](./public/images/image-10.png)
 
+
+## Installation
+The following necessary dependencies must be installed: [Express](https://www.npmjs.com/package/express) and [mongoose](https://www.npmjs.com/package/mongoose)
 
 ## Badges
 * ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
